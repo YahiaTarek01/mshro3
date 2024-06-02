@@ -23,54 +23,8 @@ let Ready = document.querySelector('.s16')
 let p1 = document.querySelector('.p2')
 let p2 = document.querySelector('.p1')
 let res = document.querySelector('.result')
-let gamer = document.querySelector('.game')
-// let guid1 = 
-// let guid2 = 
-// let guid3 = 
-// let guid4 = 
-// let guid5 = 
-// let guid6 = 
-// let guid7 = 
-// let guid8 = 
-// let guid9 = 
-// let guid10 = 
-// let guid11 = 
-// let guid12 = 
-// let guid13 = 
-// let guid14 = 
-// let guid15 = 
-// let right = document.querySelector('.e2')
-// let or = document.querySelector('.boardg')
-// main.style.display = 'none'
+let gamer = document.querySelector('.game') 
 gamer.style.display = 'none'
-
-// // تحديد العناصر DOM باستخدام الأوامر الخاصة بالمتصفح
-// var guidElements = [
-// document.querySelector('.dead1'),
-// document.querySelector('.dead2'),
-// document.querySelector('.dead3'),
-// document.querySelector('.dead4'),
-// document.querySelector('.dead5'),
-// document.querySelector('.dead6'),
-// document.querySelector('.dead7'),
-// document.querySelector('.dead8'),
-// document.querySelector('.dead9'),
-// document.querySelector('.dead10'),
-// document.querySelector('.dead11'),
-// document.querySelector('.dead12'),
-// document.querySelector('.dead13'),
-// document.querySelector('.dead14'),
-// document.querySelector('.dead15'),
-// ]
-
-// var currentIndex = 0;
-// guidElements[currentIndex].classList.remove('Vis');
-// right.onclick = function () {
-//     guidElements[currentIndex].classList.add('Vis');
-//     currentIndex = (currentIndex + 1);
-//     guidElements[currentIndex].classList.remove('Vis');
-
-// };
 
 
 play.onmouseover = function(){
