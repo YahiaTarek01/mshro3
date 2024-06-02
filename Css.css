@@ -1,0 +1,846 @@
+.body1 {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+}
+.body2 {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+    background-color: rgb(201, 201, 254);
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    justify-items: center;
+}
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.head {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(205, 64, 205);
+    display: flex;
+    justify-content: center;
+}
+.allmain {
+    display: flex;
+    width: 400px;
+    background-color: rgb(205, 64, 205);
+    align-items: start;
+    justify-content: center;
+    justify-items: center;
+    height: 60px;
+    overflow: hidden;
+    transition: 3s;
+
+
+}
+.allmain:hover {
+    height: 630px;
+}
+.buts {
+
+    width: 300px;
+    overflow: hidden;
+    transition: 1s;
+    text-align: center;
+
+
+
+}
+.butmain {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    color:white;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.butmain:hover {
+    font-size: 40px;
+    color: rgb(255, 204, 249);
+}
+.title {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    cursor:default;
+}
+.game{
+    height: 4000px;
+    width: 100%;
+
+
+}
+.board{
+    margin: auto;
+    width: 80%;
+    height: 520px;
+    background-color: rgb(201, 201, 254);
+    mArgin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+.arena {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.p1 , .p2 ,.result{
+    margin-top: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+
+}
+hr{
+    color: white;
+}
+.types{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-rows: repeat(6,50px);
+    grid-template-areas: 
+    "s1 s2 s3"
+    "s4 s5 s6"
+    "s7 s8 s9"
+    "s10 s11 s12"
+    "s13 s14 s15";
+    justify-content: space-between;
+    justify-items:center;
+    align-items: center;
+}
+.allbut{
+    margin-top: 80px;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(201, 201, 254);
+    border: 2px solid white;
+    border-radius: 3px;
+}
+.s1:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s2:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s3:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s4:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s5:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s6:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s7:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s8:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s9:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s10:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s11:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s12:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s13:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s14:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s15:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.s16:hover {
+    color: darkgray;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.choice1616 {
+    grid-area: "s16";
+    text-align: center;
+    position: relative;
+    left: 240%;
+    width: 150px;
+
+}
+.guid{
+    height: 4000px;
+    width: 100%;
+}
+.boardg{
+    margin: auto;
+    width: 30%;
+    height: 520px;
+    background-color: rgb(201, 201, 254);
+    mArgin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.title1{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body1{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.guns {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+
+
+.title3{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body3{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.fires {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title4{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body4{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Scissorss {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title5{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body5{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Snacks {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title6{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body6{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Humans {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title7{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body7{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Trees {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title8{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body8{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Wolfs {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title9{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body9{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Sponges {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title10{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body10{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Papers {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title11{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body11{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Airs {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title12{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body12{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Waters {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title13{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body13{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Dragons {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title14{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body14{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Devils {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title15{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body15{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.Lightning {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+
+/* .dead2 {
+    display: none;
+}
+.dead3 {
+    display: none;
+}
+.dead4 {
+    display: none;
+}
+.dead5 {
+    display: none;
+}
+.dead6 {
+    display: none;
+}
+.dead7 {
+    display: none;
+}
+.dead8 {
+    display: none;
+}
+.dead9 {
+    display: none;
+}
+.dead10 {
+    display: none;
+}
+.dead11 {
+    display: none;
+}
+.dead12 {
+    display: none;
+}
+.dead13 {
+    display: none;
+}
+.dead14 {
+    display: none;
+}
+.dead15 {
+    display: none;
+}
+.dead1{
+    display: none;
+} */
+
+.back5 {
+
+    color: white;
+    background-color: rgb(201, 201, 254);
+    border: 2px solid white;
+    border-radius: 3px;
+}
+/* .dead1 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+.dead2 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+
+.dead3 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+
+.dead4 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+
+.dead5 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+
+.dead6 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+
+.dead7 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+
+.dead8 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+
+.dead9 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+
+.dead10 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+
+.dead11 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+
+.dead12 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+.dead13 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+.dead14 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+}
+.dead15 button{
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    left: 150px;
+
+} */
+.Rocks {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.title2{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;font-size: 15px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.body2{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+
+.Vis {
+    display: none;
+}
