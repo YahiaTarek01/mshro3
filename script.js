@@ -1,7 +1,6 @@
-let titlemain = document.querySelector('.title')
+Guidelet titlemain = document.querySelector('.title')
 let play =  document.querySelector('.single1')
 let lang =  document.querySelector('.single2')
-let theme =  document.querySelector('.single3')
 let exit =  document.querySelector('.single4')
 let main = document.querySelector('.main')
 let body = document.querySelector('.body')
@@ -43,7 +42,7 @@ let gamer = document.querySelector('.game')
 // let right = document.querySelector('.e2')
 // let or = document.querySelector('.boardg')
 // main.style.display = 'none'
-// gamer.style.display = 'none'
+gamer.style.display = 'none'
 
 // // تحديد العناصر DOM باستخدام الأوامر الخاصة بالمتصفح
 // var guidElements = [
@@ -76,50 +75,32 @@ let gamer = document.querySelector('.game')
 
 play.onmouseover = function(){
     play.innerHTML = "> Start Game <"
-    lang.style.fontSize = "28px"
-    theme.style.fontSize = "28px"
+    lang.style.fontSize = "28px" 
     exit.style.fontSize = "28px"
 }
 play.onmouseout = function(){
     play.innerHTML = "Start Game"
     lang.style.fontSize = "35px"
-    theme.style.fontSize = "35px"
     exit.style.fontSize = "35px"
 }
 lang.onmouseover = function(){
-    lang.innerHTML = "> Language <"
+    lang.innerHTML = "> Guide <"
     play.style.fontSize = "28px"
-    theme.style.fontSize = "28px"
     exit.style.fontSize = "28px"
 }
 lang.onmouseout = function(){
-    lang.innerHTML = "Language"
-    play.style.fontSize = "35px"
-    theme.style.fontSize = "35px"
-    exit.style.fontSize = "35px"
-}
-theme.onmouseover = function(){
-    theme.innerHTML = "> Themes <"
-    lang.style.fontSize = "28px"
-    play.style.fontSize = "28px"
-    exit.style.fontSize = "28px"
-}
-theme.onmouseout = function(){
-    theme.innerHTML = "Themes"
-    lang.style.fontSize = "35px"
+    lang.innerHTML = "Guide"
     play.style.fontSize = "35px"
     exit.style.fontSize = "35px"
 }
 exit.onmouseover = function(){
     exit.innerHTML = "> Exit <"
     lang.style.fontSize = "28px"
-    theme.style.fontSize = "28px"
     play.style.fontSize = "28px"
 }
 exit.onmouseout = function(){
     exit.innerHTML = "Exit"
     lang.style.fontSize = "35px"
-    theme.style.fontSize = "35px"
     play.style.fontSize = "35px"
 }
 
@@ -131,7 +112,6 @@ titlemain.onmouseover = function(){
     titlemain.style.transiton = "0.5s"
     exit.style.fontSize = "28px"
     lang.style.fontSize = "28px"
-    theme.style.fontSize = "28px"
     play.style.fontSize = "28px"
     a = setTimeout(() => {
         play.innerHTML = ":)"     
@@ -139,12 +119,9 @@ titlemain.onmouseover = function(){
     k = setTimeout(() => {
         lang.innerHTML = ":)"
     }, 2000);
-    f = setTimeout(() => {
-        theme.innerHTML = ":)"
-    }, 3000);
     r = setTimeout(() => {
         exit.innerHTML = ":)"
-    }, 4000);
+    }, 3000);
 }
 titlemain.onmouseout = function(){
     titlemain.innerHTML = "RSP Game"
@@ -152,16 +129,13 @@ titlemain.onmouseout = function(){
     titlemain.style.transition = "0.5s"
     exit.style.fontSize = "35px"
     lang.style.fontSize = "35px"
-    theme.style.fontSize = "35px"
     play.style.fontSize = "35px"
     play.innerHTML = "Start Game"
-    lang.innerHTML = "Language"
-    theme.innerHTML = "Themes"
+    lang.innerHTML = "Guide"
     exit.innerHTML = "Exit"
     clearTimeout(a)
     clearTimeout(k)
     clearTimeout(r)
-    clearTimeout(f)
 }
 
 play.onclick = function(){
